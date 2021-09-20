@@ -1,4 +1,4 @@
-# glados_ppa
+# glados_repo
 Debian repo for the glados packages
 
 Included packages:
