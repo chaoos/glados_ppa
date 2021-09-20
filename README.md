@@ -7,7 +7,7 @@ Included packages:
 - [yii2-glados](https://github.com/chaoos/yii2-glados)
 - [rdiff-backup](https://packages.debian.org/bullseye/rdiff-backup) version >=2
 
-## Usage
+## Usage for Debian 11
 
     # install curl, sudo, gpg
     apt install curl sudo gnupg
