@@ -9,8 +9,8 @@ Included packages:
 
 ## Usage
 
-    # install curl and sudo
-    apt install curl sudo
+    # install curl, sudo, gpg
+    apt install curl sudo gnupg
     # add the GPG key of the Repo
     curl -s --compressed "https://chaoos.github.io/glados_ppa/debian/KEY.gpg" | sudo apt-key add -
     # include the glados list into sources.list
