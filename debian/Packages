@@ -26,6 +26,33 @@ Description: The exam server webinterface
   * Submit corrected exams
 
 Package: glados
+Version: 1.0.12-deb10
+Architecture: all
+Maintainer: Roman Gruber <roman.gruber@inf.unibe.ch>
+Installed-Size: 5839
+Depends: debconf (>= 0.5) | debconf-2.0, apache2, default-mysql-server, php, php-zip, php-mysql, php-gd, php-mbstring, php-pear, php-dev, php-ldap, php-intl, squashfs-tools, unzip, rdiff-backup (>= 2), avahi-daemon, openssh-client, dbconfig-common, yii2-glados (>= 2.0.41.1-1)
+Suggests: www-browser
+Filename: ./glados_1.0.12-deb10_all.deb
+Size: 3803936
+MD5sum: 41a0c42b937367c288224b92471aed3c
+SHA1: 58243bb2a462ec3d1f6e52b22c9174ef2c6006a3
+SHA256: 43d73e2748a417552e146453ed97ef0fe7186801fe576b7bd30a8cbfd8ff889e
+Section: web
+Priority: optional
+Homepage: https://github.com/imedias/glados
+Description: The exam server webinterface
+ Glados is a fully configurable webinterface to take, manage and create exams using the Lernstick.
+ It allows to:
+  * Create exams in a simple manner
+  * Create complex exams with specific system configuration, additional software or permissions
+  * Manage running exams
+  * Configure backup intervals for exams
+  * Restore specific files from the backup history
+  * Create tickets for exams
+  * Generate exam results from the backups
+  * Submit corrected exams
+
+Package: glados
 Version: 1.0.7-deb10
 Architecture: all
 Maintainer: Roman Gruber <roman.gruber@inf.unibe.ch>
@@ -91,33 +118,6 @@ Size: 3804052
 MD5sum: 00ffb432ec0570f2c02df2156583588c
 SHA1: 4e4a784272ae4a1437fe57b21afd1248e5577fc0
 SHA256: f3337a08be6f9d6af348fc9140f67f397a3a46ac4830475d4f9b957e4320e706
-Section: web
-Priority: optional
-Homepage: https://github.com/imedias/glados
-Description: The exam server webinterface
- Glados is a fully configurable webinterface to take, manage and create exams using the Lernstick.
- It allows to:
-  * Create exams in a simple manner
-  * Create complex exams with specific system configuration, additional software or permissions
-  * Manage running exams
-  * Configure backup intervals for exams
-  * Restore specific files from the backup history
-  * Create tickets for exams
-  * Generate exam results from the backups
-  * Submit corrected exams
-
-Package: glados2
-Version: 1.0.11-deb10
-Architecture: all
-Maintainer: Roman Gruber <roman.gruber@inf.unibe.ch>
-Installed-Size: 5839
-Depends: debconf (>= 0.5) | debconf-2.0, apache2, default-mysql-server, php, php-zip, php-mysql, php-gd, php-mbstring, php-pear, php-dev, php-ldap, php-intl, squashfs-tools, unzip, rdiff-backup (>= 2), avahi-daemon, openssh-client, dbconfig-common, yii2-glados (>= 2.0.41.1-1)
-Suggests: www-browser
-Filename: ./glados2_1.0.11-deb10_all.deb
-Size: 3803940
-MD5sum: 83d353a2f724697e9162d06156098595
-SHA1: d12a4d11050b5241c2ce91b76e5df3d3147c35f2
-SHA256: 541662f774bbf0af95a74a1c0d158d833d6f0be8bddcead80e105aa63838f388
 Section: web
 Priority: optional
 Homepage: https://github.com/imedias/glados
