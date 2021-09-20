@@ -22,7 +22,7 @@ sudo curl -s --compressed -o /etc/apt/sources.list.d/glados.list https://chaoos.
 # update the local package cache
 sudo apt update
 
-# install rdiff-backup version >=2
+# first install rdiff-backup version >=2 from the backports, else glados installation will fail
 sudo apt install -t buster-backports rdiff-backup
 
 # install glados
