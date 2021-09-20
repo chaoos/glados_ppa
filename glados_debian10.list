@@ -1,0 +1,2 @@
+deb https://chaoos.github.io/glados_ppa/debian ./
+deb http://deb.debian.org/debian buster-backports main
