@@ -1,15 +1,15 @@
 Package: glados
-Version: 1.0.11-deb10
+Version: 1.0.10-deb10
 Architecture: all
 Maintainer: Roman Gruber <roman.gruber@inf.unibe.ch>
 Installed-Size: 5839
 Depends: debconf (>= 0.5) | debconf-2.0, apache2, default-mysql-server, php, php-zip, php-mysql, php-gd, php-mbstring, php-pear, php-dev, php-ldap, php-intl, squashfs-tools, unzip, rdiff-backup, avahi-daemon, openssh-client, dbconfig-common, yii2-glados (>= 2.0.41.1-1)
 Suggests: www-browser
-Filename: ./glados_1.0.11-deb10_all.deb
-Size: 3804080
-MD5sum: ca1bc9f2bb14cd80c4afd2c5051eaf08
-SHA1: 2bb513bc92460082965746dcb450193c9be6eea2
-SHA256: 39eab506fbbcdba025690e1c12485ba0e70640e3c394fb4419624935d4ac2787
+Filename: ./glados_1.0.10-deb10_all.deb
+Size: 3804096
+MD5sum: 2909cc27661859e63f0aceab3b70e84a
+SHA1: 609d8899287659c1d22a06eb90ab97eed17269d1
+SHA256: 6819c9a5675e9d9958caea9ca29889095b1367991bcbaf990780ee6db17ac80a
 Section: web
 Priority: optional
 Homepage: https://github.com/imedias/glados
@@ -26,17 +26,17 @@ Description: The exam server webinterface
   * Submit corrected exams
 
 Package: glados
-Version: 1.0.12-deb10
+Version: 1.0.11-deb10
 Architecture: all
 Maintainer: Roman Gruber <roman.gruber@inf.unibe.ch>
 Installed-Size: 5839
-Depends: debconf (>= 0.5) | debconf-2.0, apache2, default-mysql-server, php, php-zip, php-mysql, php-gd, php-mbstring, php-pear, php-dev, php-ldap, php-intl, squashfs-tools, unzip, rdiff-backup (>= 2), avahi-daemon, openssh-client, dbconfig-common, yii2-glados (>= 2.0.41.1-1)
+Depends: debconf (>= 0.5) | debconf-2.0, apache2, default-mysql-server, php, php-zip, php-mysql, php-gd, php-mbstring, php-pear, php-dev, php-ldap, php-intl, squashfs-tools, unzip, rdiff-backup, avahi-daemon, openssh-client, dbconfig-common, yii2-glados (>= 2.0.41.1-1)
 Suggests: www-browser
-Filename: ./glados_1.0.12-deb10_all.deb
-Size: 3803936
-MD5sum: 41a0c42b937367c288224b92471aed3c
-SHA1: 58243bb2a462ec3d1f6e52b22c9174ef2c6006a3
-SHA256: 43d73e2748a417552e146453ed97ef0fe7186801fe576b7bd30a8cbfd8ff889e
+Filename: ./glados_1.0.11-deb10_all.deb
+Size: 3804080
+MD5sum: ca1bc9f2bb14cd80c4afd2c5051eaf08
+SHA1: 2bb513bc92460082965746dcb450193c9be6eea2
+SHA256: 39eab506fbbcdba025690e1c12485ba0e70640e3c394fb4419624935d4ac2787
 Section: web
 Priority: optional
 Homepage: https://github.com/imedias/glados
