@@ -5,7 +5,6 @@ Included packages:
 
 - [glados](https://github.com/Lernstick/glados)
 - [yii2-glados](https://github.com/chaoos/yii2-glados)
-- [rdiff-backup](https://packages.debian.org/bullseye/rdiff-backup) version >=2
 
 ## Usage for Debian 11
 

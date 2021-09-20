@@ -106,35 +106,6 @@ Description: The exam server webinterface
   * Generate exam results from the backups
   * Submit corrected exams
 
-Package: rdiff-backup
-Version: 2.0.5-2
-Architecture: amd64
-Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.net>
-Installed-Size: 733
-Depends: python3-setuptools, python3 (<< 3.10), python3 (>= 3.9~), python3-pkg-resources, python3:any, libc6 (>= 2.4), librsync2 (>= 1.0.0)
-Recommends: python3-pylibacl, python3-pyxattr
-Filename: ./rdiff-backup_2.0.5-2_amd64.deb
-Size: 212760
-MD5sum: a73dd24df7dcd1d0af9dbfe81dd5bc9a
-SHA1: eb3a3f193574adc0fea404d5e0046504f90f03a1
-SHA256: 0608b6812547c8bd73b734af234333caa056770f82a74fc58febbff2deef8453
-Section: utils
-Priority: optional
-Homepage: https://rdiff-backup.net/
-Description: remote incremental backup
- rdiff-backup backs up one directory to another, possibly over a network. The
- target directory ends up a copy of the source directory, but extra reverse
- diffs are stored in a special subdirectory of that target directory, so you can
- still recover files lost some time ago. The idea is to combine the best
- features of a mirror and an incremental backup. rdiff-backup also preserves
- subdirectories, hard links, dev files, permissions, uid/gid ownership,
- modification times, extended attributes, acls, and resource forks.
- .
- Also, rdiff-backup can operate in a bandwidth efficient manner over a pipe,
- like rsync. Thus you can use rdiff-backup and ssh to securely back a hard drive
- up to a remote location, and only the differences will be transmitted. Finally,
- rdiff-backup is easy to use and settings have sensible defaults.
-
 Package: yii2-glados
 Version: 2.0.30-1
 Architecture: all
