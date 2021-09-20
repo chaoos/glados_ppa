@@ -44,5 +44,11 @@ gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg # sign
 gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
 ```
     
+Commit the changes to the master branch
 
+```shell
+git add -A
+git commit -m "glados version <version>, ..."
+git push -u origin master
+```
 
