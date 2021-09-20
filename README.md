@@ -14,10 +14,10 @@ Included packages:
 apt install curl sudo gnupg
 
 # add the GPG key of the Repo
-curl -s --compressed "https://chaoos.github.io/glados_ppa/debian/KEY.gpg" | sudo apt-key add -
+curl -s --compressed "https://chaoos.github.io/glados_repo/debian/KEY.gpg" | sudo apt-key add -
 
 # include the glados list into sources.list
-sudo curl -s --compressed -o /etc/apt/sources.list.d/glados.list https://chaoos.github.io/glados_ppa/glados_debian10.list
+sudo curl -s --compressed -o /etc/apt/sources.list.d/glados.list https://chaoos.github.io/glados_repo/glados_debian10.list
 
 # update the local package cache
 sudo apt update
@@ -36,10 +36,10 @@ sudo apt install glados
 apt install curl sudo gnupg
 
 # add the GPG key of the Repo
-curl -s --compressed "https://chaoos.github.io/glados_ppa/debian/KEY.gpg" | sudo apt-key add -
+curl -s --compressed "https://chaoos.github.io/glados_repo/debian/KEY.gpg" | sudo apt-key add -
 
 # include the glados list into sources.list
-sudo curl -s --compressed -o /etc/apt/sources.list.d/glados.list https://chaoos.github.io/glados_ppa/glados_debian11.list
+sudo curl -s --compressed -o /etc/apt/sources.list.d/glados.list https://chaoos.github.io/glados_repo/glados_debian11.list
 
 # update the local package cache
 sudo apt update
@@ -51,7 +51,7 @@ sudo apt install glados
 ## Update the Repo
 
 ```shell
-git clone https://github.com/chaoos/glados_ppa # clone the repo
+git clone https://github.com/chaoos/glados_repo # clone the repo
 export EMAIL="email@example.com" # set email
 cd debian/ # change to debian dir
 ```
