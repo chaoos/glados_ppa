@@ -13,6 +13,9 @@ Debian repo for the glados packages
     git clone https://github.com/chaoos/glados_ppa # clone the repo
     export EMAIL="email@example.com" # set email
     cd debian/ # change to debian dir
+
+Add .deb packages into the debian directory
+
     dpkg-scanpackages --multiversion . > Packages # create package list
     gzip -k -f Packages # gzip the list
     apt-ftparchive release . > Release # create release file
